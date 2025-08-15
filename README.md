@@ -19,49 +19,49 @@ This project demonstrates hosting a scalable and highly available website on **A
 
 ## 🛠 Project Implementation Steps
 
-### 1️⃣ Create a Custom VPC
+### 1️. Create a Custom VPC
 ![Custom VPC Creation](images/screenshot1.png)
 
-### 2️⃣ Create Subnets (Public & Private)
+### 2️. Create Subnets (Public & Private)
 ![Subnet Configuration](images/screenshot2.png)
 
-### 3️⃣ Create an Internet Gateway
+### 3️. Create an Internet Gateway
 ![Internet Gateway Setup](images/screenshot3.png)
 
-### 4️⃣ Create a NAT Gateway
+### 4️. Create a NAT Gateway
 ![NAT Gateway Setup](images/screenshot4.png)
 
-### 5️⃣ Create Route Tables (Public & Private)
+### 5️. Create Route Tables (Public & Private)
 ![Route Tables Setup](images/screenshot5.png)
 
-### 6️⃣ Create Security Group (Ports 22, 80)
+### 6️. Create Security Group (Ports 22, 80)
 ![Security Group Rules](images/screenshot6.png)
 
-### 7️⃣ Create an SNS Topic
+### 7️. Create an SNS Topic
 ![SNS Topic Creation](images/screenshot7.png)
 
-### 8️⃣ Create an Empty Target Group
+### 8️. Create an Empty Target Group
 ![Target Group Setup](images/screenshot8.png)
 
-### 9️⃣ Create an Application Load Balancer
+### 9️. Create an Application Load Balancer
 ![ALB Creation](images/screenshot9.png)
 
-### 🔟 Create Launch Template
+### 10. Create Launch Template
 ![Launch Template Setup](images/screenshot10.png)
 
-### 1️⃣1️⃣ Create an Auto Scaling Group
+### 1️1️. Create an Auto Scaling Group
 ![Auto Scaling Group](images/screenshot11.png)
 
-### 1️⃣2️⃣ Create CloudWatch Alarms
+### 1️2️. Create CloudWatch Alarms
 ![CloudWatch Alarms](images/screenshot12.png)
 
-### 1️⃣3️⃣ Create CloudWatch Dashboard
+### 1️3️. Create CloudWatch Dashboard
 ![Monitoring Dashboard](images/screenshot13.png)
 
-### 1️⃣4️⃣ Attach Domain to Load Balancer
+### 1️4️. Attach Domain to Load Balancer
 ![DNS Mapping](images/screenshot14.png)
 
-### 1️⃣5️⃣ Launch Database in Private Subnet
+### 1️5️. Launch Database in Private Subnet
 ![DB Instance Setup](images/screenshot15.png)
 
 ---
